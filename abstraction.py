@@ -1,9 +1,9 @@
 from abc import ABC,abstractmethod
 class LibraryItem(ABC):
-    def __init__(self,title,item_id,store_id):
+    def __init__(self,title,item_id):
         self.title=title
         self.item_id=item_id
-        self.store_id=store_id
+        
         
     @abstractmethod
     def check_out(self):
