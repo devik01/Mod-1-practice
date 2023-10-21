@@ -1,8 +1,8 @@
 class BackAccount:
-    def __init__(self,account_number,account_holder):
+    def __init__(self,account_number,account_holding):
         self.account_number=account_number
-        self.account_holder=account_holder
-        self._balance=0.0
+        self.account_holding=account_holding
+        self._balance=0.0 #protected member
     def deposit(self,amount):
         self._balance=self._balance+amount
         return f"account number {self.account_number} and account holder {self.account_holder} : the balance is {self._balance:.2f} and the deposited amount is {amount}"
