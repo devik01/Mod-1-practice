@@ -41,7 +41,7 @@ print(b.return_item())
 print(b.display_details())
 print(d.check_out())
 print(d.return_item())
-print(d.display_detailss())
+print(d.display_details())
 
     
         
