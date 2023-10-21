@@ -5,11 +5,11 @@ class BackAccount:
         self._balance=0.0 #protected member
     def deposit(self,amount):
         self._balance=self._balance+amount
-        return f"account number {self.account_number} and account holder {self.account_holder} : the balance is {self._balance:.2f} and the deposited amount is {amount}"
+        return f"account number {self.account_number} and account holder {self.account_holding} : the balance is {self._balance:.2f} and the deposited amount is {amount}"
     def withdraw(self,amount):
         if self._balance>=amount:
             self._balance=self._balance-amount
-            return f"account number {self.account_number} and account holder {self.account_holder} : the balance is {self._balance:.2f} and the withdrawn amount is {amount}"
+            return f"account number {self.account_number} and account holder {self.account_holding} : the balance is {self._balance:.2f} and the withdrawn amount is {amount}"
     def get_balance(self):
         return f"the current balance is {self._balance:.2f}"
 
