@@ -20,8 +20,8 @@ class BankAccount:
     def get_balance(self):
         return f"balance is {self.balance:.2f}"
         
-obj=BankAccount()
-print(obj.deposit(2000))
-print(obj.withdraw(1000))
-print(obj.get_balance())
+obj1=BankAccount()
+print(obj1.deposit(2000))
+print(obj1.withdraw(9645))
+print(obj1.get_balance())
 

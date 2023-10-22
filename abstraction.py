@@ -36,6 +36,7 @@ class DVD(LibraryItem):
         return f"the DVD of title {self.title} has director {self.director} and duration {self.duration} minutes" 
 b=Book('Tales',201,'Charles','Mystery')
 d=DVD('Hangover201',101,'Gillespie',200)
+>>>>>>> a833c9c769a7d42bfe703af07256a7e5a609bed8
 print(b.check_out())
 print(b.return_item())
 print(b.display_detailss())

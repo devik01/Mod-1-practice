@@ -18,7 +18,6 @@ class AmphibiousVehicle(LandVehicle,WaterVehicle):
         self.propulsion_type=propulsion_type
     def travel(self):
         print(f"Simulation of {self.name} with propulsion {self.propulsion_type}")
-obj=AmphibiousVehicle('Hovercraft','Wheels')
 obj=AmphibiousVehicle('HondaSM','Wheels')
 obj.travel()
 
