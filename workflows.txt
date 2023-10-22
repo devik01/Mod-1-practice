@@ -5,6 +5,16 @@ then activate virtual environment by going to scripts folder and running activat
 now when you try running the flask code, the flask module may need to be installed. install flask by pip install flask
 now run the py code
 
+cd C:/Python25
+mkdir foldername
+py -m venv file_env
+.\file_env\Scripts\activate
+(if error then)
+Set -ExecutionPolicy Unrestricted ---->N
+Set -ExecutionPolicy RemoteSigned ---->Y
+.\file_env\Scripts\activate
+pip install flask
+python filename.py
 
 git workflow
 git init
