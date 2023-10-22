@@ -2,7 +2,7 @@
 from flask import Flask
 
 app3=Flask(__name__)
-@app3.route('/hello/<name>')
+@app3.route('/hello/<name>')#binding to hello_v call 
 def hello_v(name):
     return "hi there %s"%name
 
