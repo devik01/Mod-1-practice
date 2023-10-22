@@ -21,7 +21,7 @@ class BankAccount:
         return f"balance is {self.balance:.2f}"
         
 obj=BankAccount()
-print(obj.deposit(2000))
+print(obj.deposit(10000))
 print(obj.withdraw(1000))
 print(obj.get_balance())
 
