@@ -26,7 +26,11 @@ git branch newbranch
 git add file
 git commit -m 'msg'
 git push origin newbranch
+git checkout main
 git merge newbranch
+git add
+git commit
+git push
 git status
 git branch -d branchname
 git log
