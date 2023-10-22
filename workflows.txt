@@ -1,0 +1,34 @@
+flask workflow:
+first, access the directory where your flask code using cd
+then create a flask virtual environment using python -m venv <nameofvenv>
+then activate virtual environment by going to scripts folder and running activate.bat file
+now when you try running the flask code, the flask module may need to be installed. install flask by pip install flask
+now run the py code
+
+
+git workflow
+git init
+git remote add origin link
+git remote -v
+git config --global user.name <username>
+git config --global user.email <email>
+git branch newbranch
+git add file
+git commit -m 'msg'
+git push origin newbranch
+git merge newbranch
+git status
+git branch -d branchname
+git log
+git diff
+git config --global --edit
+
+
+
+
+
+
+
+
+
+
