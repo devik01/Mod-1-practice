@@ -1,6 +1,6 @@
 from abc import ABC,abstractmethod
 class LibraryItem(ABC):
-    def __init__(self,title,item_id):
+    def __init__(self,title,item_id,):
         self.title=title
         self.item_id=item_id
         
@@ -38,7 +38,7 @@ b=Book('Tales',201,'Charles','Mystery')
 d=DVD('Hangover',101,'Gillespie',200)
 print(b.check_out())
 print(b.return_item())
-print(b.display_details())
+print(b.display_detailss())
 print(d.check_out())
 print(d.return_item())
 print(d.display_detailss())
